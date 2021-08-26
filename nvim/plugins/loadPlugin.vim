@@ -27,6 +27,8 @@ call plug#begin('~\AppData\Local\nvim\plugged')
 
     "Windows
     Plug 'romgrk/barbar.nvim'
+
+    Plug 'norcalli/nvim-colorizer.lua'
 "}}}
 
 "IDE {{{
