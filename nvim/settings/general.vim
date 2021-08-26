@@ -3,7 +3,7 @@ filetype plugin on
 filetype plugin indent on
 
 set updatetime=250
-autocmd BufEnter * :set scroll =10 " set croll line
+"autocmd BufEnter * :set scroll=10 " set croll line
 syntax on
 set synmaxcol=1500 
 
@@ -11,8 +11,8 @@ set encoding=utf-8
 set mouse=a                        " enable mouse trong context của neovim 
 set ttyfast                        " speed up scrolling
 
-set rnu  "set relative number 
-set nu    "set number of cursorline
+set rnu                            " set relative number 
+set nu                             " set number of cursorline
 set incsearch 
 set hlsearch                       " hightlight text khi search
 set showmatch                      " show matching
