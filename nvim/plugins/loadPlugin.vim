@@ -28,6 +28,7 @@ call plug#begin('~\AppData\Local\nvim\plugged')
     "Windows
     Plug 'romgrk/barbar.nvim'
 
+    Plug 'wfxr/minimap.vim'
     Plug 'norcalli/nvim-colorizer.lua'
 "}}}
 
@@ -67,6 +68,9 @@ call plug#begin('~\AppData\Local\nvim\plugged')
 
     " Pug Support
     Plug 'digitaltoad/vim-pug'
+    
+    " C#
+    Plug 'OmniSharp/omnisharp-vim'
 
 "}}}
 
